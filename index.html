@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> My Portfolio </title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <a href="#"><span class="logo nav__logo">V</span> Vanshita</a>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn__large">Contact</a>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img src="assets/about1.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Vanshita<br />Mathur<br /></h1>
+        </div>
+        <p class="section__description">
+          I am a detail-oriented commerce graduate with a strong foundation in KYC, AML, and customer due diligence within BFSI environments. I am familiar with RBI AML guidelines, risk assessment frameworks, and common financial crime typologies, and I am actively building practical exposure through structured self-learning and compliance case studies.
+        </p>
+        <div class="header__btn">
+          <button class="btn" onclick="openLinkedIn()">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+       <!-- <img src="assets/bg.png" alt="bg" class="about__bg-1" />
+        <img src="assets/bg.png" alt="bg" class="about__bg-2" />*/-->
+        <img src="assets/about2.jpg" alt="about" class="about__img" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Bit About Me</h2>
+        <p class="section__description">
+          An aspiring compliance professional with foundational knowledge of KYC, AML, and regulatory frameworks, certified in Foundation in AML & KYC from KYC Lookup. 
+           My learning journey focuses on customer due diligence, RBI AML frameworks,
+          and financial crime risk indicators, with a strong emphasis on accuracy and compliance excellence.
+        </p>
+        <div class="about__btn">
+          <button class="btn" onclick="downloadFile()">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">My Academic Skills</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-shield-check-line"></i></span>
+          <h4>KYC & AML Compliance</h4>
+          <p>
+            Understanding of KYC and AML frameworks, including RBI guidelines, onboarding requirements, and ongoing compliance controls to support regulatory adherence in BFSI environments.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i  class="ri-alert-line"></i></span>
+          <h4>Risk Management</h4>
+          <p>
+            Awareness of financial crime risk mitigation practices, focusing on identifying, assessing, and managing customer and transactional risks in line with compliance standards.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i  class="ri-bar-chart-line"></i></span>
+          <h4>Risk Assessment and Risk Profiling</h4>
+          <p>
+           Ability to evaluate customer risk levels using factors such as occupation, geography, product usage, and behavioral indicators to determine appropriate risk classification.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i  class= "ri-user-search-line"></i></span>
+          <h4>Customer Due Diligence (CDD)</h4>
+          <p>
+            Knowledge of standard due diligence procedures, including customer identification, verification, and documentation checks during onboarding and periodic reviews.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-search-eye-line"></i></span>
+          <h4> Enhanced Due Diligence (EDD)</h4>
+          <p>
+          Understanding of enhanced review processes for high-risk customers, including deeper background checks, source of funds analysis, and ongoing monitoring requirements.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-file-text-line"></i></span>
+          <h4>CDD/EDD Documentation Review</h4>
+          <p>
+            Experience in reviewing KYC documentation for completeness, accuracy, and regulatory alignment, ensuring compliance with internal policies and regulatory expectations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container portfolio__container" id="portfolio">
+      <h2 class="section__header">My Portfolio</h2>
+      <p class="section__description">
+       Explore a collection of compliance-focused projects that demonstrate my understanding of KYC, AML, and BFSI regulatory frameworks. Each project reflects my analytical approach to customer risk assessment, financial crime detection, and regulatory compliance, built through structured case studies and real-world regulatory analysis.
+      </p>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="assets/project-8.jpg"  /> 
+          <div class="service__card">
+          <span><i class="ri-file-text-line"></i></span>
+           <h3>AML & FINANCIAL CRIME ANALYSIS PROJECT</h3>
+      <ul>
+      <li>Studied money laundering typologies such as structuring and mule accounts.</li>
+      <li>Identified red flags through sample transaction and deep pattern analysis of data.</li>
+    </ul>
+        </div>
+
+        </div>
+        
+        <div class="portfolio__card">
+          <img src="assets/project-1.jpg" alt="portfolio" /> 
+          <div class="service__card">
+          <span><i class="ri-file-text-line"></i></span>
+          <h4>BFSI REGULATORY COMPLIANCE STUDY</h4>
+           <ul>
+              <li>Reviewed AML/KYC obligations for Banks, NBFCs, and FinTechs in India.</li>
+              <li>Analysed regulatory enforcement actions to understand compliance gaps</li>
+            </ul>
+        </div>
+          
+    
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-9.jpg" alt="portfolio" /> 
+          <div class="service__card">
+          <span><i class="ri-file-text-line"></i></span>
+          <h4>KYC & CUSTOMER RISK PROFILING CASE STUDY</h4>
+           <ul>
+      <li>Simulated KYC onboarding as per RBI AML Master Directions.</li>
+      <li>Performed customer risk classification using occupation, geography, and behavioural indicators.</li>
+     
+     </ul>
+        </div> 
+        </div>
+       <!-- <div class="portfolio__card">
+          <img src="assets/project-41.jpg"  />
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-51.jpg"  />
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/project-61.jpg"  />
+        </div>-->
+      </div>
+      <div class="portfolio__banner">
+        <div class="portfolio__banner__card">
+          <span><i class="ri-file-text-line"></i></span>
+          <h4>Documentation & Reporting</h4>
+          <p></p>
+        </div>
+        <div class="portfolio__banner__card">
+          <span><i class="ri-chat-3-line"></i></span>
+          <h4>Strong Communication Skills</h4>
+          
+        </div>
+        <div class="portfolio__banner__card">
+          <span><i class="ri-line-chart-line"></i></span>
+           <h4>Analytical Thinking</h4>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <div class="logo">V</div>
+      <h2 class="section__header">Let's Talk With Me!</h2>
+      <p class="section__description">
+        An open invitation to connect, and exploring collaborative opportunities
+        on my personal portfolio website.
+      </p>
+      <div class="contact__socials">
+        
+        <a href="https://www.linkedin.com/in/vanshita-mathur-948a99225/" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        <a href="https://x.com/mvanshita_19" target="_blank"><i class="ri-twitter-fill"></i></a>
+        <a href="mailto:mathur.vanshita@gmail.com" ><i class="ri-mail-line"></i></a>
+      </div>
+    </section>
+    <footer class="footer">
+      Copyright © 2026 Vanshita Mathur. All rights reserved.
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
